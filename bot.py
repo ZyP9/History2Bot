@@ -11,7 +11,7 @@ import yt_dlp
 
 # =============== SETĂRI GENERALE ===============
 
-TOKEN = "Pune_TOKENUL_AICI"   # <-- pune token-ul tău nou între ghilimele
+TOKEN = os.getenv ("TOKEN" )  # <-- pune token-ul tău nou între ghilimele
 
 # ID-URI (le iei cu click dreapta -> Copy ID în Discord)
 GUILD_ID = 1443148994606796854        # ID server History2
